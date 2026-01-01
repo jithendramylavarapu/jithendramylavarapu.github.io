@@ -82,6 +82,16 @@ const content = {
     linkUrl: "why-2025-supply-chains-chose-survival.html",
   },
 
+    {
+  category: "Policy Insight",
+  title: "Will Andhra Pradesh’s Neighbourhood Workspace Policy Really Work?",
+  meta: "Public Policy · Employment · Infrastructure",
+  body:
+    "A ground-level reality check on Andhra Pradesh’s Neighbourhood Workspace Policy—examining incentives, mandal-level economics, and whether decentralized workspaces can scale sustainably beyond metros.",
+  linkLabel: "Read Blog",
+  linkUrl: "blog-ap-neighbourhood-workspace-policy.html",
+},
+
 
   ],
  certifications: [
@@ -291,5 +301,6 @@ const observer = new IntersectionObserver(
 );
 
 aboutBlocks.forEach((block) => observer.observe(block));
+
 
 
